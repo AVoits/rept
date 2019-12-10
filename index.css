@@ -1,0 +1,37 @@
+html {
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+}
+
+.main-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block {
+    padding: 20px;
+    border: 1px solid cadetblue;
+    width: 35vw;
+    margin: 30px auto;
+}
+
+.block:hover {
+    outline: 15px solid cadetblue;
+    cursor: pointer;
+}
+
+.block_title {
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.size-rem li {
+    font-size: 0.8rem;
+}
+
+.size-em li {
+    font-size: 0.8em;
+}
