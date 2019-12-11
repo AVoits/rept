@@ -1,5 +1,5 @@
 html {
-    font-size: 28px;
+    font-size: 18px;
     font-family: Arial, sans-serif;
 }
 
@@ -8,20 +8,40 @@ html {
     justify-content: space-evenly;
 }
 
-.block {
+.block-border_fix-font {
     padding: 20px;
     border: 1px solid cadetblue;
     width: 35vw;
     margin: 30px auto;
+    font-size: 28px;
 }
 
-.block:hover {
+.block-border {
+    padding: 20px;
+    border: 1px solid deeppink;
+    width: 35vw;
+    margin: 30px auto;
+}
+
+.block {
+    padding: 20px;
+    width: 35vw;
+    margin: 30px auto;
+}
+
+.block-border_fix-font:hover {
     outline: 15px solid cadetblue;
+    cursor: pointer;
+}
+
+.block-border:hover {
+    outline: 15px solid deeppink;
     cursor: pointer;
 }
 
 .block_title {
     padding-bottom: 10px;
+    font-size: 28px;
 }
 
 ul {
@@ -34,4 +54,24 @@ ul {
 
 .size-em li {
     font-size: 0.8em;
+}
+
+
+.button {
+    height: 40px;
+    width: 80px;
+    background-color: cadetblue;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: 28px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #497c7e;
 }
